@@ -22,7 +22,7 @@ post '/' do
     response: {
       outputSpeech: {
         type: "SSML",
-        ssml: "<speak> Hey do you wanna hear something funny? Jon can now say 'I like man buns' using ruby, heroku and Alexa's skill set without any need for Amazon's Lambda, that is pretty cool. </speak>"
+        ssml: "<speak> Hey do you wanna hear something funny? Jon can now say 'I like man buns' using ruby,ngrok, heroku and Alexa's skill set without any need for Amazon's Lambda, that is pretty cool. </speak>"
       } 
     }
   }.to_json

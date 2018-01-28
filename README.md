@@ -112,6 +112,9 @@ This repo will show you how to build a simple Alexa skill ("Jon says") that uses
     
 9. Set a ruby buildpack 
    $ heroku buildpacks:add heroku/ruby
+   
+   ## Doesnt seem like I need this below part , we shall se though ##
+<!--
 
 10. Set SSH Enabled to true 
    $ heroku config:set SSH_ENABLED="true"
@@ -120,5 +123,6 @@ This repo will show you how to build a simple Alexa skill ("Jon says") that uses
 
 12. add the ssh build pack 
    $ heroku buildpacks:set https://github.com/jkutner/heroku-buildpack-ssh.git
+-->
    
 
