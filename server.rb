@@ -11,6 +11,11 @@ require 'json'
 # Now we know we know that we have a response coming back we need to actually have a valid response that Alexa will reconize
 # s vaild input and output
 
+get '/' do
+    
+    "jon Says"
+end
+
 post '/' do
   { 
     version: "1.0",
