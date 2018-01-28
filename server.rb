@@ -22,10 +22,8 @@ post '/' do
     response: {
       outputSpeech: {
         type: "SSML",
-        ssml: "<speak> Hey do you wanna hear something funny? Jon can now say <emphasis level="strong"> 'I like man buns' </emphasis> using ruby and Alexa's skill set, that is pretty cool. </speak>"
+        ssml: "<speak> Hey do you wanna hear something funny? Jon can now say <emphasis level='strong'> 'I like man buns' </emphasis> using ruby and Alexa's skill set, that is pretty cool. </speak>"
       } 
     }
   }.to_json
 end
-
-#comment
