@@ -3,7 +3,7 @@
 require 'sinatra'
 require 'json'
 
-# First post we tried 
+# First post we tried , which returned our json out put in our terminal 
 #post '/' do
 # p request.body.read
 #end
