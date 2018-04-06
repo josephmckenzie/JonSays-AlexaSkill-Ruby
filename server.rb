@@ -22,7 +22,7 @@ post '/' do
     response: {
       outputSpeech: {
         type: "SSML",
-        ssml: "<speak> Hey Wanna Hear Something Cool?, There is a at least one Jon says app in the following languages Ruby, Nodejs,Java,PHP,Angular and a few more we will wait to suprise Jon with. </speak>"
+        ssml: "<speak> Hey Wanna Hear Something Really Cool?, There is a at least one Jon says app in the following languages Ruby, Nodejs, Java, PHP, Angular and even a phone app or two. </speak>"
       } 
     }
   }.to_json
