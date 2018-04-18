@@ -3,6 +3,9 @@
 require 'sinatra'
 require 'json'
 
+configure do
+  $stdout.sync = true
+end
 # First post we tried , which returned our json out put in our terminal 
 #post '/' do
 # p request.body.read
