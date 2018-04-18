@@ -12,7 +12,7 @@ require 'json'
 # s vaild input and output
 
 get '/' do
-    
+    puts "Jon says"
     "jon Says"
 end
 
